@@ -1,2 +1,4 @@
 # PickerViewProject
 使用UIPickerView模拟老虎机
+
+使用 arc4random() 方法生成随机数，在代理方法viewForRow中返回一个UILabel，以随机数作为下标选择emojiArray中的Emoji表情并分别赋值给给每一行的label.text.
